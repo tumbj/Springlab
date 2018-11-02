@@ -11,5 +11,6 @@ public class CashRegisterMain
         CashRegister register = context.getBean("register", CashRegister.class);
         register.recordPurchase(100);
         System.out.println(register.getTotal());
+        //asasd
     }
 }
